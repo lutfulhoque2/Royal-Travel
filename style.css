@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    background: #FFF;
+}
+
+header {
+    padding: 5px 50px 50px 50px; 
+    justify-content: center;
+}
+
+h3 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: Mulish;
+}
+
+.travel {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: Mulish;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    color: var(--Dark-02, #424247);
+    list-style: none;
+    margin-right: 44px;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    border: 2px solid white;
+    padding: 10px 0px
+}
+
+.home {
+    color: #FF5400;
+    font-family: Mulish;
+    text-align: center;
+    font-weight: 700;
+}
+
