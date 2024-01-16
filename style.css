@@ -151,3 +151,25 @@ nav li {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
+
+footer {
+    width: 1550px;
+    height: 450px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.social-icons {
+    height: 1px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-bottom {
+    padding: 50px;
+}
