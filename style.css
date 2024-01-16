@@ -178,16 +178,16 @@ footer {
     padding: 50px;
 }
 
-
-.des{
+.des img{
     color: #131318;
+    margin-left: 100px;
     text-align: center;
     font-family: Mulish;
     font-size: 40px;
     font-weight: 800;
 }
 .destination1 img {
-    grid-template-columns: auto;
+   display: flex;
 }
    
 
