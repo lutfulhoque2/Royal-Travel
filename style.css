@@ -409,4 +409,9 @@ footer {
         display: flex;
         flex-direction: row;
     } 
+    footer {
+        width: 375px;
+        height: 309px;
+        background: rgba(19, 19, 24, 0.05);
+    }
 }
