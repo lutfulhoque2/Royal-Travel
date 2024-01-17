@@ -50,7 +50,7 @@ nav li {
     padding: 10px 0px
 }
 
-.nav li a {
+a {
     text-decoration: none;
 }
 
@@ -394,6 +394,11 @@ footer {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
+/* video {
+    float: right;
+} */
+
 @media screen and (max-width: 600px) {
      .banner-card img {
         width: 335px;
