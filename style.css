@@ -178,23 +178,174 @@ footer {
     padding: 50px;
 }
 
-.des img{
-    color: #131318;
-    margin-left: 100px;
+.destination {
+    margin-left: 50px;
+    gap: 5px;
     text-align: center;
     font-family: Mulish;
+}
+
+.destination h1 {
+    color: #131318;
     font-size: 40px;
     font-weight: 800;
 }
-.destination1 img {
-   display: flex;
-}
-   
 
+.destination h5 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.destination1 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    margin-left: 150px;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.destination11 {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination-text {
+    color: red;
+    position: absolute;
+    padding: 140px 50px 30px 210px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination12 {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination2-text {
+    color: red;
+    position: absolute;
+    padding: 70px 50px 30px 120px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination23-text {
+    color: red;
+    position: absolute;
+    padding: 30px 50px 30px 80px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination2 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    margin-left: 150px;
+    gap: 15px;
+    margin-top: 15px;
+
+}
+
+.destination21 img {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination22 {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination23 {
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination31-text{
+    color: red;
+    position: absolute;
+    padding: 50px 50px 30px 150px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination3 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    margin-left: 150px;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.destination31 {
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination32-text{
+    color: red;
+    position: absolute;
+    padding: 100px 50px 30px 250px;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination32 {
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 @media screen and (max-width:600px) {
     .banner-card img {
         width: 335px;
         height: 483px;
+    }
+
+    .destination1 {
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        margin-left: 150px;
+        gap: 15px;
+        margin-top: 15px;
     }
      
 }
